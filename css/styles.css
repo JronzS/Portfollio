@@ -1,15 +1,4 @@
 @charset "UTF-8";
-/*!
-* Start Bootstrap - Freelancer v7.0.7 (https://startbootstrap.com/theme/freelancer)
-* Copyright 2013-2023 Start Bootstrap
-* Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-freelancer/blob/master/LICENSE)
-*/
-/*!
- * Bootstrap  v5.2.3 (https://getbootstrap.com/)
- * Copyright 2011-2022 The Bootstrap Authors
- * Copyright 2011-2022 Twitter, Inc.
- * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
- */
 :root {
   --bs-blue: #0d6efd;
   --bs-indigo: #6610f2;
@@ -99,7 +88,7 @@ body {
   line-height: var(--bs-body-line-height);
   color: var(--bs-body-color);
   text-align: var(--bs-body-text-align);
-  background-color: var(--bs-body-bg);
+  background-color: #cee6e1;
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
@@ -8127,7 +8116,7 @@ textarea.form-control-lg {
 
 .bg-primary {
   --bs-bg-opacity: 1;
-  background-color: rgba(var(--bs-primary-rgb), var(--bs-bg-opacity)) !important;
+  background-color: darkcyan !important;
 }
 
 .bg-secondary {
@@ -10979,7 +10968,7 @@ html {
   font-size: 1.25rem;
 }
 .masthead .masthead-avatar {
-  width: 15rem;
+  width: 20rem;
 }
 
 @media (min-width: 992px) {
@@ -11047,3 +11036,14 @@ html {
 .copyright {
   background-color: #1a252f;
 }
+
+#particles-js {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0; /* Ensure particles are behind content */
+}
+
+
